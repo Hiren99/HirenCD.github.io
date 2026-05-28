@@ -196,7 +196,7 @@
                         <!-- Floating tech widgets -->
                         <div class="absolute -top-6 -left-6 z-20 glass px-4 py-2.5 rounded-xl border border-white/10 flex items-center gap-2.5 shadow-xl animate-float">
                             <div class="w-3 h-3 rounded-full bg-cyan-400"></div>
-                            <span class="text-xs font-bold text-slate-200">React 19 & Next.js</span>
+                            <span class="text-xs font-bold text-slate-200">React & Next.js</span>
                         </div>
 
                         <div class="absolute -bottom-4 -right-4 z-20 glass px-4 py-2.5 rounded-xl border border-white/10 flex items-center gap-2.5 shadow-xl animate-float" style="animation-delay: 2s;">
@@ -1078,7 +1078,7 @@ export function HighFidelityUI({ data }) {
                                 <svg class="w-5 h-5 text-cyan-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                                 <div>
                                     <div class="text-xs text-slate-500 font-medium uppercase">Direct Email</div>
-                                    <div class="text-sm font-semibold text-slate-200 select-all">hiren.dholariya@example.com</div>
+                                    <div class="text-sm font-semibold text-slate-200 select-all">hirendholariya11@gmail.com</div>
                                 </div>
                             </div>
                             <button id="copy-email-btn" class="p-2 rounded-lg bg-slate-950 hover:bg-slate-800 text-slate-400 hover:text-white transition-colors cursor-pointer" title="Copy email address">
@@ -1251,11 +1251,16 @@ export function HighFidelityUI({ data }) {
                 </div>
 
                 <div class="flex items-center gap-3">
-                    <button id="download-resume-btn" class="px-4 py-2 rounded-xl text-xs font-semibold transition-colors flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 cursor-pointer">
+                    <a href="assets/pdf/CV.pdf" download="CV.pdf" class="px-4 py-2 rounded-xl text-xs font-semibold transition-colors flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 cursor-pointer"> 
+                        <svg id="download-icon" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        <svg id="downloaded-icon" class="w-4 h-4 text-emerald-400 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                        Download PDF 
+                    </a>
+                    <!-- <button id="download-resume-btn" class="px-4 py-2 rounded-xl text-xs font-semibold transition-colors flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-950 cursor-pointer">
                         <svg id="download-icon" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                         <svg id="downloaded-icon" class="w-4 h-4 text-emerald-400 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
                         <span id="download-text">Download PDF</span>
-                    </button>
+                    </button> -->
 
                     <button id="close-resume-btn" class="p-2 rounded-xl bg-slate-950 hover:bg-slate-800 text-slate-400 hover:text-white transition-colors border border-slate-800 cursor-pointer">
                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
@@ -1268,7 +1273,7 @@ export function HighFidelityUI({ data }) {
                     <h1 class="text-3xl font-extrabold text-white tracking-tight">Hiren Dholariya</h1>
                     <div class="text-cyan-400 font-semibold text-base mt-1">Senior Web Designer & Frontend Developer</div>
                     <div class="flex flex-wrap gap-x-6 gap-y-2 mt-4 text-xs text-slate-400">
-                        <span>📧 hiren.dholariya@example.com</span>
+                        <span>📧 hirendholariya11@gmail.com</span>
                         <span>📍 Global Remote / Distributed</span>
                         <span>💼 9+ Years Professional Experience</span>
                         <span>🔗 github.com/Hiren99</span>
@@ -1278,7 +1283,7 @@ export function HighFidelityUI({ data }) {
                 <div class="space-y-2">
                     <h2 class="text-xs font-bold text-white uppercase tracking-widest text-cyan-400">Professional Summary</h2>
                     <p class="text-sm leading-relaxed">
-                        Highly technical and creative Senior Web Designer & Frontend Developer with over 9 years of direct expertise in responsive architecture, UI/UX systems, and high-performance single-page applications. Mastered the end-to-end lifecycle from atomic Figma interface tokens directly to strongly-typed production React codebases. Dedicated to performance tuning, micro-interactions, and pristine semantic structures.
+                        "Creative and detail-oriented Senior Web Designer with X+ years of experience in designing modern, responsive, and user-friendly websites. Skilled in UI/UX design, responsive layouts, branding, and front-end collaboration. Experienced in creating visually appealing digital experiences that improve user engagement and business growth."
                     </p>
                 </div>
 
@@ -1288,30 +1293,29 @@ export function HighFidelityUI({ data }) {
                         <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
                             <div class="font-bold text-white mb-1">Frontend Architecture</div>
                             <div class="text-slate-400 space-y-0.5">
-                                <div>• React 19 & Next.js App Router</div>
-                                <div>• TypeScript & JavaScript (ES6+)</div>
+                                <div>• Angular & React UI HTML</div>
+                                <div>• TypeScript & JavaScript</div>
                                 <div>• Tailwind CSS & Custom SCSS</div>
-                                <div>• Server-Side Rendering (SSR)</div>
+                                <div>• Shopify</div>
                             </div>
                         </div>
 
                         <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
                             <div class="font-bold text-white mb-1">Design & Prototypes</div>
                             <div class="text-slate-400 space-y-0.5">
-                                <div>• Figma Component Tokens</div>
+                                <div>• Figma to Code</div>
                                 <div>• Adobe Photoshop & CC Suite</div>
-                                <div>• Infinite Viewport Systems</div>
-                                <div>• Interactive Micro-animations</div>
+                                <div>• UI/UX Design to Code</div>
+                                <div>• Clickfunnels</div>
                             </div>
                         </div>
 
                         <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
                             <div class="font-bold text-white mb-1">Engineering Tools</div>
                             <div class="text-slate-400 space-y-0.5">
-                                <div>• Git, GitHub & CI/CD Pipelines</div>
-                                <div>• RESTful & GraphQL Integration</div>
-                                <div>• WordPress Core Integration</div>
-                                <div>• Core Web Vitals Optimization</div>
+                                <div>• Git, GitHub</div>
+                                <div>• WordPress Core</div>
+                                <div>• Adobe After Effec</div>
                             </div>
                         </div>
                     </div>
@@ -1322,61 +1326,87 @@ export function HighFidelityUI({ data }) {
                     <div class="space-y-6">
                         <div class="space-y-1.5">
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between">
-                                <div class="font-bold text-white text-sm">Senior Web Designer & Frontend Developer</div>
-                                <div class="text-xs text-cyan-400 font-semibold">2021 – Present</div>
+                                <div class="font-bold text-white text-sm">Networkzone13 Professional Services, Punjab (WFH)</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2023 - 2025</div>
                             </div>
-                            <div class="text-xs text-slate-400">Enterprise Digital Solutions</div>
+                            <div class="text-xs text-slate-400"></div>
                             <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
-                                <li>Architected scalable high-fidelity single-page web applications using React and Next.js, boosting key performance indicators by 45%.</li>
-                                <li>Bridged engineering and product design by establishing a highly consistent bidirectional Figma-to-React UI asset system.</li>
-                                <li>Maintained strict adherence to Web Content Accessibility Guidelines (WCAG AAA) across all deliverables.</li>
+                                <li>PHP/Laravel Developer with experience in building scalable web applications and backend systems, recently transitioned into Next.js development for modern frontend and full-stack applications.</li>
+                                <li>Transitioned to Next.js development for modern frontend UI asset system.</li>
+                                <li>Built responsive and user-friendly interfaces using Next.js.</li>
                             </ul>
                         </div>
 
                         <div class="space-y-1.5">
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between">
-                                <div class="font-bold text-white text-sm">Frontend Developer & UI Engineer</div>
-                                <div class="text-xs text-cyan-400 font-semibold">2018 – 2021</div>
+                                <div class="font-bold text-white text-sm">Natrix Software, Surat-Gujarat</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2022 – 2023</div>
                             </div>
-                            <div class="text-xs text-slate-400">Creative Web Agency</div>
+                            <div class="text-xs text-slate-400"></div>
                             <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
-                                <li>Delivered 25+ highly optimized premium websites featuring custom layouts and flawless cross-device scalability.</li>
-                                <li>Engineered complex state matrices and real-time API client handlers inside high-traffic responsive environments.</li>
+                                <li>Worked on frontend development and UI bug fixing using WordPress, React, and Angular technologies, focusing on responsive design, performance optimization, and user experience improvements.</li>
+                                <li>Developed responsive and user-friendly front-end interfaces for web applications.</li>
+                                <li>Fixed UI/UX issues, improved website responsiveness, and optimized frontend performance.</li>
                             </ul>
                         </div>
 
                         <div class="space-y-1.5">
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between">
-                                <div class="font-bold text-white text-sm">Web Designer & WordPress Specialist</div>
-                                <div class="text-xs text-cyan-400 font-semibold">2015 – 2018</div>
+                                <div class="font-bold text-white text-sm">Aegis Softwares, Rajko-Gujarat</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2019 – 2022</div>
                             </div>
-                            <div class="text-xs text-slate-400">Digital Media Studio</div>
+                            <div class="text-xs text-slate-400"></div>
                             <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
-                                <li>Created pixel-perfect custom WordPress responsive themes from raw Photoshop layout blueprints.</li>
-                                <li>Pioneered mobile-first layouts directly adapting to fast-changing mobile device viewports.</li>
+                                <li>Converted PSD designs into responsive and pixel-perfect HTML/CSS webpages.</li>
+                                <li>Maintained and updated Java-based websites by handling UI improvements and frontend modifications.</li>
+                                <li>Designed and customized interfaces for .NET projects according to client requirements.</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+                                <div class="font-bold text-white text-sm">Sxope, Rajko-Gujarat</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2018 – 2019</div>
+                            </div>
+                            <div class="text-xs text-slate-400"></div>
+                            <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
+                                <li>Worked on website development and sales funnel creation using WordPress and ClickFunnels. Experienced in designing responsive websites, landing pages, sales funnels, lead generation systems, and optimizing user experience for better conversions.</li>
+                                <li>Developed and managed dynamic websites using WordPress</li>
+                                <li>Created high-converting landing pages and marketing funnels using ClickFunnels</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+                                <div class="font-bold text-white text-sm">RMC (Rajkot Municipal Corporatio - Center Zone), Rajko-Gujarat</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2017 – 2018</div>
+                            </div>
+                            <div class="text-xs text-slate-400"></div>
+                            <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
+                                <li>In House website maintenance</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between">
+                                <div class="font-bold text-white text-sm">I-Quall Infoway, Rajko-Gujarat</div>
+                                <div class="text-xs text-cyan-400 font-semibold">2016 – 2017</div>
+                            </div>
+                            <div class="text-xs text-slate-400"></div>
+                            <ul class="list-disc list-inside text-xs space-y-1 pt-1 text-slate-300">
+                                <li>Designed and converted PSD layouts into responsive HTML templates for eBay stores and product listing pages.</li>
+                                <li>Developed custom eBay store designs with clean, user-friendly, and visually appealing interfaces.</li>
+                                <li>Worked on PSD to HTML conversion using HTML5, CSS3, Bootstrap, and basic JavaScript/jQuery.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="grid sm:grid-cols-2 gap-6 pt-4 border-t border-slate-800">
+                <div class="grid sm:grid-cols-1 gap-6 pt-4 border-t border-slate-800">
                     <div class="space-y-2">
                         <div class="flex items-center gap-2 text-xs font-bold text-white uppercase tracking-widest text-cyan-400">
                             <span>Education</span>
                         </div>
                         <div class="text-xs space-y-1">
-                            <div class="font-semibold text-white">Bachelor of Science in Information Technology</div>
-                            <div class="text-slate-400">Gujarat University • Completed with First Class Distinction</div>
-                        </div>
-                    </div>
-
-                    <div class="space-y-2">
-                        <div class="flex items-center gap-2 text-xs font-bold text-white uppercase tracking-widest text-cyan-400">
-                            <span>Certifications</span>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-white">Advanced UI/UX Architecture & Design Systems</div>
-                            <div class="text-slate-400">Verified Professional Certification • 2022</div>
+                            <div class="font-semibold text-white">Msc(IT & CA) G.K.& C.K.Boshimiya Arts & Comm. Jetpur-Rajkot, Gujart 360370</div>
+                            <div class="text-slate-400">Saurashtra University • Completed with First Class Distinction</div>
                         </div>
                     </div>
                 </div>
@@ -1941,7 +1971,7 @@ export function HighFidelityUI({ data }) {
             const copiedIcon = document.getElementById('copied-icon');
 
             copyEmailBtn.addEventListener('click', () => {
-                navigator.clipboard.writeText('hiren.dholariya@example.com');
+                navigator.clipboard.writeText('hirendholariya11@gmail.com');
                 copyIcon.classList.add('hidden');
                 copiedIcon.classList.remove('hidden');
 
