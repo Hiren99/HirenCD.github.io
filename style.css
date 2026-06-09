@@ -1,10 +1,106 @@
-
+/* ==== Fonts ==== */
+@font-face {
+    font-family: 'sb-pjs';
+    src: url('assets/fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'b-pjs';
+    src: url('assets/fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('assets/fonts/PlusJakartaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'eb-pjs';
+    src: url('assets/fonts/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/PlusJakartaSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'm-pjs';
+    src: url('assets/fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('assets/fonts/PlusJakartaSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'pjs';
+    src: url('assets/fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/PlusJakartaSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'm-inter';
+    src: url('assets/fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('assets/fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'eb-inter';
+    src: url('assets/fonts/Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/Inter18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('assets/fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('assets/fonts/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'sb-inter';
+    src: url('assets/fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'b-inter';
+    src: url('assets/fonts/Inter18pt-Bold.woff2') format('woff2'),
+        url('assets/fonts/Inter18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MazzardHSemiBold';
+    src: url('assets/fonts/MazzardH-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/MazzardH-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* ==== # Fonts ==== */
 
 @layer base {
   body {
     font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
   }
 }
+
+.font-normal {font-family: 'pjs';}
+.font-medium {font-family: 'm-pjs';}
+.text-3xl {font-family: 'eb-pjs';}
+.leading-relaxed {font-family: 'inter';}
+h3.text-xl {font-family: 'MazzardHSemiBold';}
+.cd-b-pjs {font-family: 'b-pjs';}
 
 /* Custom silky smooth scrollbars */
 ::-webkit-scrollbar {
@@ -26,9 +122,7 @@
 
 /* Premium glassmorphism effects */
 .glass {
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgb(10 19 40);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
